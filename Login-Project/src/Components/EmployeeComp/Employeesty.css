@@ -1,0 +1,62 @@
+ .EmpContainer{
+    height: 100%;
+    width: 1200px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 50px 50px;
+    border-radius: 50px;
+    box-shadow: 15px 15px 20px black;
+}
+.EmpContainer h1{
+    margin-left: 40%;
+    margin-bottom: 40px;
+}
+.EmpContainer label{
+    width: 500px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+.EmpContainer input{
+    margin: 20px 20px;
+    width: 900px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+}
+
+.EmpContainer select{
+    width: 200px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.EmpContainer button{
+    margin: 40px 0 50px 47%;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    background-color: rgb(236, 58, 58);
+    color: white;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.EmpContainer button:hover{
+    font-size: 21px;
+}
+
+.displaydata{
+    margin: 10px 0 50px 150px;
+}
+.displaydata th,tr{
+     width: 200px;
+     height: 20px;
+     font-size: 20px;
+}
+.displaydata th{
+    background-color: rgb(21, 21, 51);
+    color: white;
+}
+.error{
+    color: red;
+}

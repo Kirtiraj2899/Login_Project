@@ -1,0 +1,59 @@
+
+.loginContainer{
+    height: 320px;
+    width: 250px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #1d0830;
+    margin-top: 40%;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 15px 15px 20px black;
+}
+#logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: white;
+    margin: 10px 0 -10px -180px;
+    left: 0;
+}
+.loginContainer input{
+    margin-bottom: 30px;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.loginContainer .loginbtn{
+    
+    width: 100%;
+    background-color: white;
+    padding: 15px 0 10px 0;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 14px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.loginContainer .loginbtn:hover{
+    font-size: 21px;
+}
+
+.loginContainer #passvisible {
+    margin-left: -35px;
+    margin-bottom: -25px;
+    border: none;
+    background-color: white;
+    /* margin-top: 25px;
+    font-size: 20px; */
+}
+
+.loginContainer #passvisible img{
+    height: 20px;
+    width: 20px;
+}
